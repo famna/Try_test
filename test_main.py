@@ -44,6 +44,7 @@ class LoginTest(BaseTest):
         login_button.click()
         
         # Перевіряємо, чи вдалося залогінитись
+        \
         success_message = self.driver.find_element(By.ID, "flash")
         assert "You logged into a secure area!" in success_message.text
         
