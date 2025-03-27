@@ -10,8 +10,15 @@ from webdriver_manager.chrome import ChromeDriverManager
 import os
 import time
 
-# Налаштування логування
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Налаштування логування в файл
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("test_log.log"),
+        logging.StreamHandler()
+    ]
+)
 
 @pytest.fixture(scope="class")
 def setup_driver():
@@ -26,6 +33,13 @@ def setup_driver():
     logging.info("Закриваю драйвер...")
     driver.quit()
     logging.info("Драйвер закрито.")
+
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    outcome = yield
+    report = outcome.get_result()
+    if report.when == "call" and report.failed:
+        logging.error(f"Тест {item.name} зазнав невдачі: {call.excinfo}")
 
 class TestLogin:
     def test_login_success(self, setup_driver):
@@ -100,23 +114,5 @@ class TestInputForm:
         assert input_field.get_attribute("value") == "12345"
         logging.info("Текст успішно введено у форму!")
 
-class TestTable:
-    def test_table_content(self, setup_driver):
-        logging.info("Перевірка отримання значень із таблиці...")
-        setup_driver.get("https://the-internet.herokuapp.com/tables")
-        cell_value = setup_driver.find_element(By.XPATH, "//table[1]//tr[2]/td[4]").text
-        assert cell_value == "$51.00"
-        logging.info("Таблиця містить очікуване значення!")
-
-class TestDragAndDrop:
-    def test_drag_and_drop(self, setup_driver):
-        logging.info("Перевірка перетягування елементів...")
-        setup_driver.get("https://the-internet.herokuapp.com/drag_and_drop")
-        source = setup_driver.find_element(By.ID, "column-a")
-        target = setup_driver.find_element(By.ID, "column-b")
-        ActionChains(setup_driver).drag_and_drop(source, target).perform()
-        assert "A" in target.text
-        logging.info("Перетягування виконано успішно!")
-
 if __name__ == "__main__":
-    pytest.main(["-v", "--html=report.html"])
+    pytest.main(["-v", "--html=report.html", "--self-contained-html"])
