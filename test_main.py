@@ -5,9 +5,10 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
-import time
 import os
+import time
 
 # Налаштування логування
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -80,18 +81,42 @@ class TestFileUpload:
         logging.info("Перевірка завантаження файлу...")
         setup_driver.get("https://the-internet.herokuapp.com/upload")
         file_path = "C:\\Users\\Kirill\\Desktop\\testfile.txt"
-        
-        # Створення тестового файлу, якщо його не існує
         if not os.path.exists(file_path):
             with open(file_path, "w") as f:
-                f.write("Це тестовий файл для завантаження.")
-            logging.info("Тестовий файл створено!")
-        
+                f.write("Test file content")
         file_input = setup_driver.find_element(By.ID, "file-upload")
-        file_input.send_keys(file_path)  # Використовуємо актуальний шлях
+        file_input.send_keys(file_path)
         setup_driver.find_element(By.ID, "file-submit").click()
         assert "File Uploaded!" in setup_driver.find_element(By.TAG_NAME, "body").text
         logging.info("Файл успішно завантажено!")
+
+class TestInputForm:
+    def test_input_form(self, setup_driver):
+        logging.info("Перевірка введення тексту у форму...")
+        setup_driver.get("https://the-internet.herokuapp.com/inputs")
+        input_field = setup_driver.find_element(By.TAG_NAME, "input")
+        input_field.clear()
+        input_field.send_keys("12345")
+        assert input_field.get_attribute("value") == "12345"
+        logging.info("Текст успішно введено у форму!")
+
+class TestTable:
+    def test_table_content(self, setup_driver):
+        logging.info("Перевірка отримання значень із таблиці...")
+        setup_driver.get("https://the-internet.herokuapp.com/tables")
+        cell_value = setup_driver.find_element(By.XPATH, "//table[1]//tr[2]/td[4]").text
+        assert cell_value == "$51.00"
+        logging.info("Таблиця містить очікуване значення!")
+
+class TestDragAndDrop:
+    def test_drag_and_drop(self, setup_driver):
+        logging.info("Перевірка перетягування елементів...")
+        setup_driver.get("https://the-internet.herokuapp.com/drag_and_drop")
+        source = setup_driver.find_element(By.ID, "column-a")
+        target = setup_driver.find_element(By.ID, "column-b")
+        ActionChains(setup_driver).drag_and_drop(source, target).perform()
+        assert "A" in target.text
+        logging.info("Перетягування виконано успішно!")
 
 if __name__ == "__main__":
     pytest.main(["-v", "--html=report.html"])
