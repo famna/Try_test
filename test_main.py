@@ -1,12 +1,15 @@
 import pytest 
 import logging
+import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 import os
 import time
 
@@ -20,13 +23,20 @@ logging.basicConfig(
     ]
 )
 
-@pytest.fixture(scope="class")
-def setup_driver():
-    logging.info("Налаштовую драйвер...")
-    options = Options()
-    options.add_argument("--disable-gpu")
-    options.add_argument("--window-size=1920,1080")
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+@pytest.fixture(scope="class", params=["chrome", "firefox"])
+def setup_driver(request):
+    logging.info(f"Налаштовую драйвер для {request.param}...")
+    if request.param == "chrome":
+        options = Options()
+        options.add_argument("--disable-gpu")
+        options.add_argument("--window-size=1920,1080")
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    else:
+        options = FirefoxOptions()
+        options.add_argument("--width=1920")
+        options.add_argument("--height=1080")
+        driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
+    
     driver.implicitly_wait(10)
     logging.info("Браузер відкрито!")
     yield driver
@@ -39,26 +49,26 @@ def pytest_runtest_makereport(item, call):
     outcome = yield
     report = outcome.get_result()
     if report.when == "call" and report.failed:
-        logging.error(f"Тест {item.name} зазнав невдачі: {call.excinfo}")
+        driver = item.funcargs.get("setup_driver")
+        if driver:
+            screenshot_path = f"screenshots/{item.name}.png"
+            os.makedirs("screenshots", exist_ok=True)
+            driver.save_screenshot(screenshot_path)
+            logging.error(f"Тест {item.name} зазнав невдачі. Скріншот збережено: {screenshot_path}")
 
 class TestLogin:
-    def test_login_success(self, setup_driver):
-        logging.info("Відкриваю сторінку логіну...")
+    @pytest.mark.parametrize("username, password, expected_message", [
+        ("tomsmith", "SuperSecretPassword!", "You logged into a secure area!"),
+        ("wronguser", "wrongpassword", "Your username is invalid!")
+    ])
+    def test_login(self, setup_driver, username, password, expected_message):
+        logging.info("Перевірка логіну з параметризацією...")
         setup_driver.get("https://the-internet.herokuapp.com/login")
-        setup_driver.find_element(By.ID, "username").send_keys("tomsmith")
-        setup_driver.find_element(By.ID, "password").send_keys("SuperSecretPassword!")
+        setup_driver.find_element(By.ID, "username").send_keys(username)
+        setup_driver.find_element(By.ID, "password").send_keys(password)
         setup_driver.find_element(By.CSS_SELECTOR, "button.radius").click()
-        assert "You logged into a secure area!" in setup_driver.find_element(By.ID, "flash").text
-        logging.info("Успішний логін підтверджено!")
-
-    def test_login_failure(self, setup_driver):
-        logging.info("Перевірка некоректного логіну...")
-        setup_driver.get("https://the-internet.herokuapp.com/login")
-        setup_driver.find_element(By.ID, "username").send_keys("wronguser")
-        setup_driver.find_element(By.ID, "password").send_keys("wrongpassword")
-        setup_driver.find_element(By.CSS_SELECTOR, "button.radius").click()
-        assert "Your username is invalid!" in setup_driver.find_element(By.ID, "flash").text
-        logging.info("Перевірка некоректного логіну пройдена!")
+        assert expected_message in setup_driver.find_element(By.ID, "flash").text
+        logging.info("Перевірка логіну успішна!")
 
 class TestCheckbox:
     def test_checkboxes(self, setup_driver):
@@ -113,6 +123,15 @@ class TestInputForm:
         input_field.send_keys("12345")
         assert input_field.get_attribute("value") == "12345"
         logging.info("Текст успішно введено у форму!")
+
+class TestAPI:
+    def test_api_response(self):
+        logging.info("Перевірка відповіді API...")
+        response = requests.get("https://jsonplaceholder.typicode.com/todos/1")
+        assert response.status_code == 200
+        data = response.json()
+        assert data["id"] == 1
+        logging.info("API працює коректно!")
 
 if __name__ == "__main__":
     pytest.main(["-v", "--html=report.html", "--self-contained-html"])

@@ -243,3 +243,382 @@
 2025-03-27 03:10:40,622 - INFO - Текст успішно введено у форму!
 2025-03-27 03:10:40,624 - INFO - Закриваю драйвер...
 2025-03-27 03:10:42,682 - INFO - Драйвер закрито.
+2025-04-03 01:54:51,980 - INFO - Налаштовую драйвер...
+2025-04-03 01:54:52,140 - INFO - ====== WebDriver manager ======
+2025-04-03 01:54:53,100 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:54:53,262 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:54:53,376 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:54:53,639 - INFO - WebDriver version 134.0.6998.165 selected
+2025-04-03 01:54:53,645 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-04-03 01:54:53,647 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-04-03 01:54:53,761 - INFO - Driver downloading response is 200
+2025-04-03 01:54:55,656 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:54:55,910 - INFO - Driver has been saved in cache [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165]
+2025-04-03 01:54:57,676 - INFO - Браузер відкрито!
+2025-04-03 01:54:57,679 - INFO - Відкриваю сторінку логіну...
+2025-04-03 01:55:00,030 - INFO - Успішний логін підтверджено!
+2025-04-03 01:55:00,038 - INFO - Перевірка некоректного логіну...
+2025-04-03 01:55:00,650 - INFO - Перевірка некоректного логіну пройдена!
+2025-04-03 01:55:00,654 - INFO - Закриваю драйвер...
+2025-04-03 01:55:02,749 - INFO - Драйвер закрито.
+2025-04-03 01:55:02,754 - INFO - Налаштовую драйвер...
+2025-04-03 01:55:02,757 - INFO - ====== WebDriver manager ======
+2025-04-03 01:55:03,552 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:03,662 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:03,771 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:55:04,813 - INFO - Браузер відкрито!
+2025-04-03 01:55:04,815 - INFO - Перевірка чекбоксів...
+2025-04-03 01:55:06,671 - INFO - Усі чекбокси вибрані!
+2025-04-03 01:55:06,674 - INFO - Закриваю драйвер...
+2025-04-03 01:55:08,758 - INFO - Драйвер закрито.
+2025-04-03 01:55:08,763 - INFO - Налаштовую драйвер...
+2025-04-03 01:55:08,766 - INFO - ====== WebDriver manager ======
+2025-04-03 01:55:09,586 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:09,698 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:09,811 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:55:10,864 - INFO - Браузер відкрито!
+2025-04-03 01:55:10,867 - INFO - Перевірка спливаючих вікон...
+2025-04-03 01:55:12,581 - INFO - Спливаюче вікно успішно закрито!
+2025-04-03 01:55:12,584 - INFO - Закриваю драйвер...
+2025-04-03 01:55:14,663 - INFO - Драйвер закрито.
+2025-04-03 01:55:14,669 - INFO - Налаштовую драйвер...
+2025-04-03 01:55:14,671 - INFO - ====== WebDriver manager ======
+2025-04-03 01:55:15,366 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:15,467 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:15,570 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:55:16,638 - INFO - Браузер відкрито!
+2025-04-03 01:55:16,640 - INFO - Перевірка випадаючого списку...
+2025-04-03 01:55:18,620 - INFO - Випадаючий список працює коректно!
+2025-04-03 01:55:18,622 - INFO - Закриваю драйвер...
+2025-04-03 01:55:20,701 - INFO - Драйвер закрито.
+2025-04-03 01:55:20,706 - INFO - Налаштовую драйвер...
+2025-04-03 01:55:20,708 - INFO - ====== WebDriver manager ======
+2025-04-03 01:55:21,355 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:21,459 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:21,560 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:55:22,598 - INFO - Браузер відкрито!
+2025-04-03 01:55:22,600 - INFO - Перевірка завантаження файлу...
+2025-04-03 01:55:41,000 - INFO - Закриваю драйвер...
+2025-04-03 01:55:43,094 - INFO - Драйвер закрито.
+2025-04-03 01:55:43,105 - INFO - Налаштовую драйвер...
+2025-04-03 01:55:43,107 - INFO - ====== WebDriver manager ======
+2025-04-03 01:55:43,755 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:43,857 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:55:43,974 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:55:45,010 - INFO - Браузер відкрито!
+2025-04-03 01:55:45,012 - INFO - Перевірка введення тексту у форму...
+2025-04-03 01:55:46,754 - INFO - Текст успішно введено у форму!
+2025-04-03 01:55:46,756 - INFO - Закриваю драйвер...
+2025-04-03 01:55:48,826 - INFO - Драйвер закрито.
+2025-04-03 01:58:24,626 - INFO - Налаштовую драйвер...
+2025-04-03 01:58:24,633 - INFO - ====== WebDriver manager ======
+2025-04-03 01:58:25,272 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:25,379 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:25,494 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:58:26,559 - INFO - Браузер відкрито!
+2025-04-03 01:58:26,562 - INFO - Перевірка логіну з параметризацією...
+2025-04-03 01:58:28,803 - INFO - Перевірка логіну успішна!
+2025-04-03 01:58:28,809 - INFO - Перевірка логіну з параметризацією...
+2025-04-03 01:58:29,455 - INFO - Перевірка логіну успішна!
+2025-04-03 01:58:29,457 - INFO - Закриваю драйвер...
+2025-04-03 01:58:31,546 - INFO - Драйвер закрито.
+2025-04-03 01:58:31,550 - INFO - Налаштовую драйвер...
+2025-04-03 01:58:31,552 - INFO - ====== WebDriver manager ======
+2025-04-03 01:58:32,180 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:32,291 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:32,393 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:58:33,444 - INFO - Браузер відкрито!
+2025-04-03 01:58:33,446 - INFO - Перевірка чекбоксів...
+2025-04-03 01:58:35,274 - INFO - Усі чекбокси вибрані!
+2025-04-03 01:58:35,276 - INFO - Закриваю драйвер...
+2025-04-03 01:58:37,353 - INFO - Драйвер закрито.
+2025-04-03 01:58:37,358 - INFO - Налаштовую драйвер...
+2025-04-03 01:58:37,360 - INFO - ====== WebDriver manager ======
+2025-04-03 01:58:37,984 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:38,089 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:38,191 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:58:39,235 - INFO - Браузер відкрито!
+2025-04-03 01:58:39,237 - INFO - Перевірка спливаючих вікон...
+2025-04-03 01:58:40,935 - INFO - Спливаюче вікно успішно закрито!
+2025-04-03 01:58:40,938 - INFO - Закриваю драйвер...
+2025-04-03 01:58:43,017 - INFO - Драйвер закрито.
+2025-04-03 01:58:43,022 - INFO - Налаштовую драйвер...
+2025-04-03 01:58:43,024 - INFO - ====== WebDriver manager ======
+2025-04-03 01:58:43,651 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:43,753 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:43,854 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:58:44,900 - INFO - Браузер відкрито!
+2025-04-03 01:58:44,902 - INFO - Перевірка випадаючого списку...
+2025-04-03 01:58:46,629 - INFO - Випадаючий список працює коректно!
+2025-04-03 01:58:46,631 - INFO - Закриваю драйвер...
+2025-04-03 01:58:48,699 - INFO - Драйвер закрито.
+2025-04-03 01:58:48,704 - INFO - Налаштовую драйвер...
+2025-04-03 01:58:48,707 - INFO - ====== WebDriver manager ======
+2025-04-03 01:58:49,357 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:49,467 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:58:49,571 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:58:50,567 - INFO - Браузер відкрито!
+2025-04-03 01:58:50,569 - INFO - Перевірка завантаження файлу...
+2025-04-03 01:59:09,108 - INFO - Закриваю драйвер...
+2025-04-03 01:59:11,197 - INFO - Драйвер закрито.
+2025-04-03 01:59:11,203 - INFO - Налаштовую драйвер...
+2025-04-03 01:59:11,205 - INFO - ====== WebDriver manager ======
+2025-04-03 01:59:11,871 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:59:11,975 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 01:59:12,084 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 01:59:13,161 - INFO - Браузер відкрито!
+2025-04-03 01:59:13,163 - INFO - Перевірка введення тексту у форму...
+2025-04-03 01:59:15,045 - INFO - Текст успішно введено у форму!
+2025-04-03 01:59:15,047 - INFO - Закриваю драйвер...
+2025-04-03 01:59:17,122 - INFO - Драйвер закрито.
+2025-04-03 02:00:13,780 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:00:13,786 - INFO - ====== WebDriver manager ======
+2025-04-03 02:00:14,418 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:00:14,534 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:00:14,644 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:00:15,712 - INFO - Браузер відкрито!
+2025-04-03 02:00:15,715 - INFO - Перевірка логіну з параметризацією...
+2025-04-03 02:00:18,083 - INFO - Перевірка логіну успішна!
+2025-04-03 02:00:18,089 - INFO - Перевірка логіну з параметризацією...
+2025-04-03 02:00:18,661 - INFO - Перевірка логіну успішна!
+2025-04-03 02:00:18,665 - INFO - Закриваю драйвер...
+2025-04-03 02:00:20,744 - INFO - Драйвер закрито.
+2025-04-03 02:00:20,746 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:00:20,748 - INFO - ====== WebDriver manager ======
+2025-04-03 02:00:21,882 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:00:22,073 - INFO - Getting latest mozilla release info for v0.36.0
+2025-04-03 02:00:22,357 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-04-03 02:00:23,174 - INFO - Driver downloading response is 200
+2025-04-03 02:00:23,985 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:00:24,600 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:00:25,170 - INFO - Driver has been saved in cache [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-04-03 02:00:34,595 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:00:34,597 - INFO - ====== WebDriver manager ======
+2025-04-03 02:00:35,251 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:00:35,358 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:00:35,462 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:00:36,503 - INFO - Браузер відкрито!
+2025-04-03 02:00:36,505 - INFO - Перевірка чекбоксів...
+2025-04-03 02:00:38,209 - INFO - Усі чекбокси вибрані!
+2025-04-03 02:00:38,214 - INFO - Закриваю драйвер...
+2025-04-03 02:00:40,268 - INFO - Драйвер закрито.
+2025-04-03 02:00:40,269 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:00:40,271 - INFO - ====== WebDriver manager ======
+2025-04-03 02:00:41,177 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:00:41,317 - INFO - Getting latest mozilla release info for v0.36.0
+2025-04-03 02:00:41,452 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-04-03 02:00:42,070 - INFO - Driver downloading response is 200
+2025-04-03 02:00:42,876 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:00:43,505 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:00:44,081 - INFO - Driver has been saved in cache [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-04-03 02:00:53,305 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:00:53,308 - INFO - ====== WebDriver manager ======
+2025-04-03 02:00:53,956 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:00:54,061 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:00:54,181 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:00:55,222 - INFO - Браузер відкрито!
+2025-04-03 02:00:55,225 - INFO - Перевірка спливаючих вікон...
+2025-04-03 02:00:56,918 - INFO - Спливаюче вікно успішно закрито!
+2025-04-03 02:00:56,924 - INFO - Закриваю драйвер...
+2025-04-03 02:00:58,992 - INFO - Драйвер закрито.
+2025-04-03 02:00:58,993 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:00:58,995 - INFO - ====== WebDriver manager ======
+2025-04-03 02:00:59,900 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:01:00,167 - INFO - Getting latest mozilla release info for v0.36.0
+2025-04-03 02:01:00,301 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-04-03 02:01:00,890 - INFO - Driver downloading response is 200
+2025-04-03 02:01:01,671 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:01:02,339 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:01:02,953 - INFO - Driver has been saved in cache [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-04-03 02:01:12,209 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:01:12,211 - INFO - ====== WebDriver manager ======
+2025-04-03 02:01:12,961 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:01:13,068 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:01:13,170 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:01:14,237 - INFO - Браузер відкрито!
+2025-04-03 02:01:14,239 - INFO - Перевірка випадаючого списку...
+2025-04-03 02:01:16,075 - INFO - Випадаючий список працює коректно!
+2025-04-03 02:01:16,080 - INFO - Закриваю драйвер...
+2025-04-03 02:01:18,154 - INFO - Драйвер закрито.
+2025-04-03 02:01:18,156 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:01:18,158 - INFO - ====== WebDriver manager ======
+2025-04-03 02:01:19,082 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:01:19,221 - INFO - Getting latest mozilla release info for v0.36.0
+2025-04-03 02:01:19,359 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-04-03 02:01:19,957 - INFO - Driver downloading response is 200
+2025-04-03 02:01:20,981 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:01:21,597 - INFO - Get LATEST geckodriver version for None firefox
+2025-04-03 02:01:22,169 - INFO - Driver has been saved in cache [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-04-03 02:01:31,385 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:01:31,387 - INFO - ====== WebDriver manager ======
+2025-04-03 02:01:32,017 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:01:32,130 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:01:32,233 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:01:33,309 - INFO - Браузер відкрито!
+2025-04-03 02:01:33,311 - INFO - Перевірка завантаження файлу...
+2025-04-03 02:01:47,458 - INFO - Закриваю драйвер...
+2025-04-03 02:01:49,547 - INFO - Драйвер закрито.
+2025-04-03 02:01:49,549 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:01:49,551 - INFO - ====== WebDriver manager ======
+2025-04-03 02:01:50,520 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:01:50,692 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:01:50,824 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "137.0" in cache
+2025-04-03 02:01:50,826 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:01:50,960 - INFO - Getting latest mozilla release info for v0.36.0
+2025-04-03 02:01:51,235 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-04-03 02:01:51,906 - INFO - Driver downloading response is 200
+2025-04-03 02:01:52,257 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:01:52,435 - INFO - Driver has been saved in cache [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-04-03 02:01:57,570 - INFO - Браузер відкрито!
+2025-04-03 02:01:57,573 - INFO - Перевірка завантаження файлу...
+2025-04-03 02:02:00,411 - INFO - Файл успішно завантажено!
+2025-04-03 02:02:00,414 - INFO - Закриваю драйвер...
+2025-04-03 02:02:03,074 - INFO - Драйвер закрито.
+2025-04-03 02:02:03,081 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:02:03,083 - INFO - ====== WebDriver manager ======
+2025-04-03 02:02:03,791 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:02:03,899 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:02:04,004 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:02:04,997 - INFO - Браузер відкрито!
+2025-04-03 02:02:04,999 - INFO - Перевірка введення тексту у форму...
+2025-04-03 02:02:06,825 - INFO - Текст успішно введено у форму!
+2025-04-03 02:02:06,830 - INFO - Закриваю драйвер...
+2025-04-03 02:02:08,897 - INFO - Драйвер закрито.
+2025-04-03 02:02:08,899 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:02:08,901 - INFO - ====== WebDriver manager ======
+2025-04-03 02:02:09,832 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:02:10,101 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:02:10,236 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 02:02:15,149 - INFO - Браузер відкрито!
+2025-04-03 02:02:15,152 - INFO - Перевірка введення тексту у форму...
+2025-04-03 02:02:17,096 - INFO - Текст успішно введено у форму!
+2025-04-03 02:02:17,099 - INFO - Закриваю драйвер...
+2025-04-03 02:02:19,760 - INFO - Драйвер закрито.
+2025-04-03 02:02:19,766 - INFO - Перевірка відповіді API...
+2025-04-03 02:02:19,847 - INFO - API працює коректно!
+2025-04-03 02:02:32,813 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:02:32,819 - INFO - ====== WebDriver manager ======
+2025-04-03 02:02:33,473 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:02:33,581 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:02:33,697 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:02:34,745 - INFO - Браузер відкрито!
+2025-04-03 02:02:34,748 - INFO - Перевірка логіну з параметризацією...
+2025-04-03 02:02:37,118 - INFO - Перевірка логіну успішна!
+2025-04-03 02:02:37,125 - INFO - Перевірка логіну з параметризацією...
+2025-04-03 02:02:37,766 - INFO - Перевірка логіну успішна!
+2025-04-03 02:02:37,770 - INFO - Закриваю драйвер...
+2025-04-03 02:02:39,846 - INFO - Драйвер закрито.
+2025-04-03 02:02:39,847 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:02:39,849 - INFO - ====== WebDriver manager ======
+2025-04-03 02:02:40,832 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:02:41,104 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:02:41,238 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 02:02:46,246 - INFO - Браузер відкрито!
+2025-04-03 02:02:46,248 - INFO - Перевірка логіну з параметризацією...
+2025-04-03 02:02:49,695 - INFO - Перевірка логіну успішна!
+2025-04-03 02:02:49,701 - INFO - Перевірка логіну з параметризацією...
+2025-04-03 02:02:50,241 - INFO - Перевірка логіну успішна!
+2025-04-03 02:02:50,244 - INFO - Закриваю драйвер...
+2025-04-03 02:02:52,908 - INFO - Драйвер закрито.
+2025-04-03 02:02:52,912 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:02:52,914 - INFO - ====== WebDriver manager ======
+2025-04-03 02:02:53,556 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:02:53,659 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:02:53,761 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:02:54,820 - INFO - Браузер відкрито!
+2025-04-03 02:02:54,822 - INFO - Перевірка чекбоксів...
+2025-04-03 02:02:56,757 - INFO - Усі чекбокси вибрані!
+2025-04-03 02:02:56,762 - INFO - Закриваю драйвер...
+2025-04-03 02:02:58,824 - INFO - Драйвер закрито.
+2025-04-03 02:02:58,826 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:02:58,828 - INFO - ====== WebDriver manager ======
+2025-04-03 02:02:59,822 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:02:59,990 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:03:00,126 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 02:03:05,100 - INFO - Браузер відкрито!
+2025-04-03 02:03:05,104 - INFO - Перевірка чекбоксів...
+2025-04-03 02:03:08,244 - INFO - Усі чекбокси вибрані!
+2025-04-03 02:03:08,247 - INFO - Закриваю драйвер...
+2025-04-03 02:03:10,917 - INFO - Драйвер закрито.
+2025-04-03 02:03:10,923 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:03:10,925 - INFO - ====== WebDriver manager ======
+2025-04-03 02:03:11,561 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:03:11,667 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:03:11,773 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:03:12,838 - INFO - Браузер відкрито!
+2025-04-03 02:03:12,840 - INFO - Перевірка спливаючих вікон...
+2025-04-03 02:03:14,647 - INFO - Спливаюче вікно успішно закрито!
+2025-04-03 02:03:14,652 - INFO - Закриваю драйвер...
+2025-04-03 02:03:16,715 - INFO - Драйвер закрито.
+2025-04-03 02:03:16,716 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:03:16,719 - INFO - ====== WebDriver manager ======
+2025-04-03 02:03:17,691 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:03:17,967 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:03:18,101 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 02:03:23,062 - INFO - Браузер відкрито!
+2025-04-03 02:03:23,066 - INFO - Перевірка спливаючих вікон...
+2025-04-03 02:03:26,133 - INFO - Спливаюче вікно успішно закрито!
+2025-04-03 02:03:26,136 - INFO - Закриваю драйвер...
+2025-04-03 02:03:28,784 - INFO - Драйвер закрито.
+2025-04-03 02:03:28,789 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:03:28,792 - INFO - ====== WebDriver manager ======
+2025-04-03 02:03:29,429 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:03:29,531 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:03:29,633 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:03:30,705 - INFO - Браузер відкрито!
+2025-04-03 02:03:30,707 - INFO - Перевірка випадаючого списку...
+2025-04-03 02:03:32,423 - INFO - Випадаючий список працює коректно!
+2025-04-03 02:03:32,428 - INFO - Закриваю драйвер...
+2025-04-03 02:03:34,504 - INFO - Драйвер закрито.
+2025-04-03 02:03:34,506 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:03:34,508 - INFO - ====== WebDriver manager ======
+2025-04-03 02:03:35,484 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:03:35,618 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:03:35,757 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 02:03:40,682 - INFO - Браузер відкрито!
+2025-04-03 02:03:40,685 - INFO - Перевірка випадаючого списку...
+2025-04-03 02:03:43,738 - INFO - Випадаючий список працює коректно!
+2025-04-03 02:03:43,740 - INFO - Закриваю драйвер...
+2025-04-03 02:03:46,590 - INFO - Драйвер закрито.
+2025-04-03 02:03:46,596 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:03:46,598 - INFO - ====== WebDriver manager ======
+2025-04-03 02:03:47,222 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:04:19,807 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:04:19,912 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:04:20,971 - INFO - Браузер відкрито!
+2025-04-03 02:04:20,973 - INFO - Перевірка завантаження файлу...
+2025-04-03 02:04:23,097 - INFO - Файл успішно завантажено!
+2025-04-03 02:04:23,103 - INFO - Закриваю драйвер...
+2025-04-03 02:04:25,181 - INFO - Драйвер закрито.
+2025-04-03 02:04:25,183 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:04:25,185 - INFO - ====== WebDriver manager ======
+2025-04-03 02:04:26,140 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:04:26,314 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:04:26,447 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 02:04:31,429 - INFO - Браузер відкрито!
+2025-04-03 02:04:31,431 - INFO - Перевірка завантаження файлу...
+2025-04-03 02:04:33,650 - INFO - Файл успішно завантажено!
+2025-04-03 02:04:33,652 - INFO - Закриваю драйвер...
+2025-04-03 02:04:36,293 - INFO - Драйвер закрито.
+2025-04-03 02:04:36,299 - INFO - Налаштовую драйвер для chrome...
+2025-04-03 02:04:36,301 - INFO - ====== WebDriver manager ======
+2025-04-03 02:04:36,919 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:04:37,026 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-03 02:04:37,129 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-03 02:04:38,175 - INFO - Браузер відкрито!
+2025-04-03 02:04:38,177 - INFO - Перевірка введення тексту у форму...
+2025-04-03 02:04:39,888 - INFO - Текст успішно введено у форму!
+2025-04-03 02:04:39,893 - INFO - Закриваю драйвер...
+2025-04-03 02:04:41,964 - INFO - Драйвер закрито.
+2025-04-03 02:04:41,966 - INFO - Налаштовую драйвер для firefox...
+2025-04-03 02:04:41,968 - INFO - ====== WebDriver manager ======
+2025-04-03 02:04:42,893 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:04:43,178 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 02:04:43,311 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 02:04:48,225 - INFO - Браузер відкрито!
+2025-04-03 02:04:48,228 - INFO - Перевірка введення тексту у форму...
+2025-04-03 02:04:50,305 - INFO - Текст успішно введено у форму!
+2025-04-03 02:04:50,307 - INFO - Закриваю драйвер...
+2025-04-03 02:04:52,957 - INFO - Драйвер закрито.
+2025-04-03 02:04:52,963 - INFO - Перевірка відповіді API...
+2025-04-03 02:04:53,007 - INFO - API працює коректно!
