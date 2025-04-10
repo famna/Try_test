@@ -1,0 +1,17 @@
+[32mINFO    [0m test_main:test_main.py:89 Тестування логіну з користувачем: invalid
+[32mINFO    [0m test_main:test_main.py:95 Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+[32mINFO    [0m test_main:test_main.py:105 Скріншот після логіну збережено: screenshots/after_login_invalid.png
+[1m[31mERROR   [0m test_main:test_main.py:128 Помилка при авторизації: Message: 
+
+[1m[31mERROR   [0m test_main:test_main.py:129 Поточна URL: https://the-internet.herokuapp.com/login
+[1m[31mERROR   [0m test_main:test_main.py:130 HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"...

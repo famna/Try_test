@@ -1,0 +1,8 @@
+[32mINFO    [0m test_main:test_main.py:64 Драйвер chrome закрито
+[32mINFO    [0m test_main:test_main.py:37 Ініціалізація firefox...
+[32mINFO    [0m test_main:test_main.py:89 Тестування логіну з користувачем: tomsmith
+[32mINFO    [0m test_main:test_main.py:95 Скріншот перед логіном збережено: screenshots/before_login_tomsmith.png
+[32mINFO    [0m test_main:test_main.py:105 Скріншот після логіну збережено: screenshots/after_login_tomsmith.png
+[32mINFO    [0m test_main:test_main.py:117 Поточна URL після логіну: https://the-internet.herokuapp.com/secure
+[32mINFO    [0m test_main:test_main.py:124 Отримано повідомлення: You logged into a secure area!
+×

@@ -1,0 +1,6 @@
+[32mINFO    [0m test_main:test_main.py:64 Драйвер chrome закрито
+[32mINFO    [0m test_main:test_main.py:37 Ініціалізація firefox...
+[32mINFO    [0m test_main:test_main.py:188 Тестування завантаження файлу
+[32mINFO    [0m test_main:test_main.py:212 Файл успішно завантажено
+[32mINFO    [0m test_main:test_main.py:217 Тимчасовий файл test_file.txt видалено
+[32mINFO    [0m test_main:test_main.py:64 Драйвер firefox закрито

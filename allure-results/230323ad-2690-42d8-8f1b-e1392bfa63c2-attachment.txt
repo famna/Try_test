@@ -1,0 +1,7 @@
+[32mINFO    [0m test_main:test_main.py:135 Тестування виходу з системи
+[32mINFO    [0m test_main:test_main.py:153 Успішний вхід у систему
+[32mINFO    [0m test_main:test_main.py:165 Знайдено кнопку виходу: https://the-internet.herokuapp.com/logout
+[32mINFO    [0m test_main:test_main.py:181 Текст повідомлення після виходу: You logged out of the secure area!
+×
+[32mINFO    [0m test_main:test_main.py:183 Успішний вихід із системи
+[32mINFO    [0m test_main:test_main.py:64 Драйвер firefox закрито

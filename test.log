@@ -1,0 +1,898 @@
+2025-04-10 03:08:36,602 - INFO - Запуск chrome у headless-режимі...
+2025-04-10 03:08:36,656 - INFO - ====== WebDriver manager ======
+2025-04-10 03:08:37,319 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 03:08:37,489 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 03:08:37,620 - INFO - There is no [win64] chromedriver "135.0.7049.84" for browser google-chrome "135.0.7049" in cache
+2025-04-10 03:08:37,622 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 03:08:37,945 - INFO - WebDriver version 135.0.7049.84 selected
+2025-04-10 03:08:37,950 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-10 03:08:37,952 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-10 03:08:38,085 - INFO - Driver downloading response is 200
+2025-04-10 03:08:38,327 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 03:08:38,566 - INFO - Driver has been saved in cache [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\135.0.7049.84]
+2025-04-10 03:09:35,240 - INFO - Драйвер chrome закрито.
+2025-04-10 03:09:35,243 - INFO - Запуск firefox у headless-режимі...
+2025-04-10 03:09:35,245 - INFO - ====== WebDriver manager ======
+2025-04-10 03:09:36,022 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-10 03:09:36,316 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-10 03:09:36,444 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-10 03:09:36,568 - INFO - Getting latest mozilla release info for v0.36.0
+2025-04-10 03:09:36,818 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-04-10 03:09:37,482 - INFO - Driver downloading response is 200
+2025-04-10 03:09:37,697 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-10 03:09:37,866 - INFO - Driver has been saved in cache [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-04-10 03:09:48,502 - INFO - Драйвер firefox закрито.
+2025-04-10 03:09:48,513 - INFO - Запуск chrome у headless-режимі...
+2025-04-10 03:09:48,515 - INFO - ====== WebDriver manager ======
+2025-04-10 03:09:49,158 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 03:09:57,453 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 03:09:57,582 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-10 03:10:03,131 - INFO - Драйвер chrome закрито.
+2025-04-10 03:10:03,133 - INFO - Запуск firefox у headless-режимі...
+2025-04-10 03:10:03,136 - INFO - ====== WebDriver manager ======
+2025-04-10 03:10:03,836 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-10 03:10:03,967 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-10 03:10:04,101 - INFO - Driver [C:\Users\Kirill\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-10 03:10:13,269 - INFO - Драйвер firefox закрито.
+2025-04-10 03:16:55,460 - INFO - Ініціалізація chrome...
+2025-04-10 03:17:11,123 - ERROR - Помилка: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011980E3+60707]
+	GetHandleVerifier [0x01198124+60772]
+	(No symbol) [0x00FC0683]
+	(No symbol) [0x01008660]
+	(No symbol) [0x010089FB]
+	(No symbol) [0x01051022]
+	(No symbol) [0x0102D094]
+	(No symbol) [0x0104E824]
+	(No symbol) [0x0102CE46]
+	(No symbol) [0x00FFC5D3]
+	(No symbol) [0x00FFD424]
+	GetHandleVerifier [0x013DBBC3+2435075]
+	GetHandleVerifier [0x013D7163+2416035]
+	GetHandleVerifier [0x013F350C+2531660]
+	GetHandleVerifier [0x011AF1B5+155125]
+	GetHandleVerifier [0x011B5B5D+182173]
+	GetHandleVerifier [0x0119F9B8+91640]
+	GetHandleVerifier [0x0119FB60+92064]
+	GetHandleVerifier [0x0118A620+4704]
+	BaseThreadInitThunk [0x77A8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CD82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77CD827E+238]
+
+2025-04-10 03:17:23,106 - ERROR - Помилка: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011980E3+60707]
+	GetHandleVerifier [0x01198124+60772]
+	(No symbol) [0x00FC0683]
+	(No symbol) [0x01008660]
+	(No symbol) [0x010089FB]
+	(No symbol) [0x01051022]
+	(No symbol) [0x0102D094]
+	(No symbol) [0x0104E824]
+	(No symbol) [0x0102CE46]
+	(No symbol) [0x00FFC5D3]
+	(No symbol) [0x00FFD424]
+	GetHandleVerifier [0x013DBBC3+2435075]
+	GetHandleVerifier [0x013D7163+2416035]
+	GetHandleVerifier [0x013F350C+2531660]
+	GetHandleVerifier [0x011AF1B5+155125]
+	GetHandleVerifier [0x011B5B5D+182173]
+	GetHandleVerifier [0x0119F9B8+91640]
+	GetHandleVerifier [0x0119FB60+92064]
+	GetHandleVerifier [0x0118A620+4704]
+	BaseThreadInitThunk [0x77A8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CD82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77CD827E+238]
+
+2025-04-10 03:17:34,950 - ERROR - Помилка: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011980E3+60707]
+	GetHandleVerifier [0x01198124+60772]
+	(No symbol) [0x00FC0683]
+	(No symbol) [0x01008660]
+	(No symbol) [0x010089FB]
+	(No symbol) [0x01051022]
+	(No symbol) [0x0102D094]
+	(No symbol) [0x0104E824]
+	(No symbol) [0x0102CE46]
+	(No symbol) [0x00FFC5D3]
+	(No symbol) [0x00FFD424]
+	GetHandleVerifier [0x013DBBC3+2435075]
+	GetHandleVerifier [0x013D7163+2416035]
+	GetHandleVerifier [0x013F350C+2531660]
+	GetHandleVerifier [0x011AF1B5+155125]
+	GetHandleVerifier [0x011B5B5D+182173]
+	GetHandleVerifier [0x0119F9B8+91640]
+	GetHandleVerifier [0x0119FB60+92064]
+	GetHandleVerifier [0x0118A620+4704]
+	BaseThreadInitThunk [0x77A8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CD82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77CD827E+238]
+
+2025-04-10 03:17:37,070 - INFO - Драйвер chrome закрито
+2025-04-10 03:17:37,071 - INFO - Ініціалізація firefox...
+2025-04-10 03:17:48,192 - INFO - Драйвер firefox закрито
+2025-04-10 03:17:48,197 - INFO - Ініціалізація chrome...
+2025-04-10 03:17:54,447 - INFO - Драйвер chrome закрито
+2025-04-10 03:17:54,448 - INFO - Ініціалізація firefox...
+2025-04-10 03:18:04,558 - INFO - Драйвер firefox закрито
+2025-04-10 03:21:35,012 - INFO - Ініціалізація chrome...
+2025-04-10 03:21:50,158 - ERROR - Помилка: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011980E3+60707]
+	GetHandleVerifier [0x01198124+60772]
+	(No symbol) [0x00FC0683]
+	(No symbol) [0x01008660]
+	(No symbol) [0x010089FB]
+	(No symbol) [0x01051022]
+	(No symbol) [0x0102D094]
+	(No symbol) [0x0104E824]
+	(No symbol) [0x0102CE46]
+	(No symbol) [0x00FFC5D3]
+	(No symbol) [0x00FFD424]
+	GetHandleVerifier [0x013DBBC3+2435075]
+	GetHandleVerifier [0x013D7163+2416035]
+	GetHandleVerifier [0x013F350C+2531660]
+	GetHandleVerifier [0x011AF1B5+155125]
+	GetHandleVerifier [0x011B5B5D+182173]
+	GetHandleVerifier [0x0119F9B8+91640]
+	GetHandleVerifier [0x0119FB60+92064]
+	GetHandleVerifier [0x0118A620+4704]
+	BaseThreadInitThunk [0x77A8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CD82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77CD827E+238]
+
+2025-04-10 03:22:02,109 - ERROR - Помилка: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011980E3+60707]
+	GetHandleVerifier [0x01198124+60772]
+	(No symbol) [0x00FC0683]
+	(No symbol) [0x01008660]
+	(No symbol) [0x010089FB]
+	(No symbol) [0x01051022]
+	(No symbol) [0x0102D094]
+	(No symbol) [0x0104E824]
+	(No symbol) [0x0102CE46]
+	(No symbol) [0x00FFC5D3]
+	(No symbol) [0x00FFD424]
+	GetHandleVerifier [0x013DBBC3+2435075]
+	GetHandleVerifier [0x013D7163+2416035]
+	GetHandleVerifier [0x013F350C+2531660]
+	GetHandleVerifier [0x011AF1B5+155125]
+	GetHandleVerifier [0x011B5B5D+182173]
+	GetHandleVerifier [0x0119F9B8+91640]
+	GetHandleVerifier [0x0119FB60+92064]
+	GetHandleVerifier [0x0118A620+4704]
+	BaseThreadInitThunk [0x77A8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CD82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77CD827E+238]
+
+2025-04-10 03:22:13,900 - ERROR - Помилка: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011980E3+60707]
+	GetHandleVerifier [0x01198124+60772]
+	(No symbol) [0x00FC0683]
+	(No symbol) [0x01008660]
+	(No symbol) [0x010089FB]
+	(No symbol) [0x01051022]
+	(No symbol) [0x0102D094]
+	(No symbol) [0x0104E824]
+	(No symbol) [0x0102CE46]
+	(No symbol) [0x00FFC5D3]
+	(No symbol) [0x00FFD424]
+	GetHandleVerifier [0x013DBBC3+2435075]
+	GetHandleVerifier [0x013D7163+2416035]
+	GetHandleVerifier [0x013F350C+2531660]
+	GetHandleVerifier [0x011AF1B5+155125]
+	GetHandleVerifier [0x011B5B5D+182173]
+	GetHandleVerifier [0x0119F9B8+91640]
+	GetHandleVerifier [0x0119FB60+92064]
+	GetHandleVerifier [0x0118A620+4704]
+	BaseThreadInitThunk [0x77A8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CD82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77CD827E+238]
+
+2025-04-10 03:22:24,689 - ERROR - Помилка: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011980E3+60707]
+	GetHandleVerifier [0x01198124+60772]
+	(No symbol) [0x00FC0683]
+	(No symbol) [0x01008660]
+	(No symbol) [0x010089FB]
+	(No symbol) [0x01051022]
+	(No symbol) [0x0102D094]
+	(No symbol) [0x0104E824]
+	(No symbol) [0x0102CE46]
+	(No symbol) [0x00FFC5D3]
+	(No symbol) [0x00FFD424]
+	GetHandleVerifier [0x013DBBC3+2435075]
+	GetHandleVerifier [0x013D7163+2416035]
+	GetHandleVerifier [0x013F350C+2531660]
+	GetHandleVerifier [0x011AF1B5+155125]
+	GetHandleVerifier [0x011B5B5D+182173]
+	GetHandleVerifier [0x0119F9B8+91640]
+	GetHandleVerifier [0x0119FB60+92064]
+	GetHandleVerifier [0x0118A620+4704]
+	BaseThreadInitThunk [0x77A8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CD82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77CD827E+238]
+
+2025-04-10 03:22:36,513 - ERROR - Помилка: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011980E3+60707]
+	GetHandleVerifier [0x01198124+60772]
+	(No symbol) [0x00FC0683]
+	(No symbol) [0x01008660]
+	(No symbol) [0x010089FB]
+	(No symbol) [0x01051022]
+	(No symbol) [0x0102D094]
+	(No symbol) [0x0104E824]
+	(No symbol) [0x0102CE46]
+	(No symbol) [0x00FFC5D3]
+	(No symbol) [0x00FFD424]
+	GetHandleVerifier [0x013DBBC3+2435075]
+	GetHandleVerifier [0x013D7163+2416035]
+	GetHandleVerifier [0x013F350C+2531660]
+	GetHandleVerifier [0x011AF1B5+155125]
+	GetHandleVerifier [0x011B5B5D+182173]
+	GetHandleVerifier [0x0119F9B8+91640]
+	GetHandleVerifier [0x0119FB60+92064]
+	GetHandleVerifier [0x0118A620+4704]
+	BaseThreadInitThunk [0x77A8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CD82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77CD827E+238]
+
+2025-04-10 03:22:48,330 - ERROR - Помилка: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011980E3+60707]
+	GetHandleVerifier [0x01198124+60772]
+	(No symbol) [0x00FC0683]
+	(No symbol) [0x01008660]
+	(No symbol) [0x010089FB]
+	(No symbol) [0x01051022]
+	(No symbol) [0x0102D094]
+	(No symbol) [0x0104E824]
+	(No symbol) [0x0102CE46]
+	(No symbol) [0x00FFC5D3]
+	(No symbol) [0x00FFD424]
+	GetHandleVerifier [0x013DBBC3+2435075]
+	GetHandleVerifier [0x013D7163+2416035]
+	GetHandleVerifier [0x013F350C+2531660]
+	GetHandleVerifier [0x011AF1B5+155125]
+	GetHandleVerifier [0x011B5B5D+182173]
+	GetHandleVerifier [0x0119F9B8+91640]
+	GetHandleVerifier [0x0119FB60+92064]
+	GetHandleVerifier [0x0118A620+4704]
+	BaseThreadInitThunk [0x77A8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CD82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77CD827E+238]
+
+2025-04-10 03:22:50,425 - INFO - Драйвер chrome закрито
+2025-04-10 03:22:50,425 - INFO - Ініціалізація firefox...
+2025-04-10 03:23:08,754 - ERROR - Помилка: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-04-10 03:23:20,811 - ERROR - Помилка: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-04-10 03:23:32,848 - ERROR - Помилка: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-04-10 03:23:36,133 - INFO - Драйвер firefox закрито
+2025-04-10 03:23:36,135 - INFO - Ініціалізація chrome...
+2025-04-10 03:23:42,828 - INFO - Драйвер chrome закрито
+2025-04-10 03:23:42,828 - INFO - Ініціалізація firefox...
+2025-04-10 03:23:53,032 - INFO - Драйвер firefox закрито
+2025-04-10 03:27:44,209 - INFO - Ініціалізація chrome...
+2025-04-10 03:28:05,064 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:28:05,066 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"></script><meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><style></style>
+    <script src="/js/foundation/foundation.alerts.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div id="flash-messages" class="large-12 columns">
+      
+        
+      
+        
+      
+        
+      
+      </div>
+    </div>
+    <div class="row">
+      <a href="https://github.com/tourdedave/the-internet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+      <div id="content" class="large-12 columns">
+        <div class="example">
+  <h2>Login Page</h2>
+  <h4 class="subheader">This is where you can log into the secure area. Enter <em>tomsmith</em> for the username and <em>SuperSecretPassword!</em> for the password. If the information is wrong you should see error messages.</h4>
+  <form name="login" id="login" action="/authenticate" method="post">
+     <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+    </div>
+      <button class="radius" type="submit"><i class="fa fa-2x fa-sign-in"> Login</i></button>
+  </form>
+</div>
+
+      </div>
+    </div>
+    <div id="page-footer" class="row">
+      <div class="large-4 large-centered columns">
+        <hr>
+        <div style="text-align: center;">Powered by <a target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a></div>
+      </div>
+    </div>
+  
+
+</body></html>
+2025-04-10 03:28:22,510 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:28:22,511 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"></script><meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><style></style>
+    <script src="/js/foundation/foundation.alerts.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div id="flash-messages" class="large-12 columns">
+      
+        
+      
+        
+      
+        
+      
+      </div>
+    </div>
+    <div class="row">
+      <a href="https://github.com/tourdedave/the-internet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+      <div id="content" class="large-12 columns">
+        <div class="example">
+  <h2>Login Page</h2>
+  <h4 class="subheader">This is where you can log into the secure area. Enter <em>tomsmith</em> for the username and <em>SuperSecretPassword!</em> for the password. If the information is wrong you should see error messages.</h4>
+  <form name="login" id="login" action="/authenticate" method="post">
+     <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+    </div>
+      <button class="radius" type="submit"><i class="fa fa-2x fa-sign-in"> Login</i></button>
+  </form>
+</div>
+
+      </div>
+    </div>
+    <div id="page-footer" class="row">
+      <div class="large-4 large-centered columns">
+        <hr>
+        <div style="text-align: center;">Powered by <a target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a></div>
+      </div>
+    </div>
+  
+
+</body></html>
+2025-04-10 03:28:39,967 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:28:39,969 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"></script><meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><style></style>
+    <script src="/js/foundation/foundation.alerts.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div id="flash-messages" class="large-12 columns">
+      
+        
+      
+        
+      
+        
+      
+      </div>
+    </div>
+    <div class="row">
+      <a href="https://github.com/tourdedave/the-internet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+      <div id="content" class="large-12 columns">
+        <div class="example">
+  <h2>Login Page</h2>
+  <h4 class="subheader">This is where you can log into the secure area. Enter <em>tomsmith</em> for the username and <em>SuperSecretPassword!</em> for the password. If the information is wrong you should see error messages.</h4>
+  <form name="login" id="login" action="/authenticate" method="post">
+     <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+    </div>
+      <button class="radius" type="submit"><i class="fa fa-2x fa-sign-in"> Login</i></button>
+  </form>
+</div>
+
+      </div>
+    </div>
+    <div id="page-footer" class="row">
+      <div class="large-4 large-centered columns">
+        <hr>
+        <div style="text-align: center;">Powered by <a target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a></div>
+      </div>
+    </div>
+  
+
+</body></html>
+2025-04-10 03:28:42,087 - INFO - Драйвер chrome закрито
+2025-04-10 03:28:42,088 - INFO - Ініціалізація firefox...
+2025-04-10 03:28:53,265 - INFO - Драйвер firefox закрито
+2025-04-10 03:28:53,270 - INFO - Ініціалізація chrome...
+2025-04-10 03:28:59,520 - INFO - Драйвер chrome закрито
+2025-04-10 03:28:59,521 - INFO - Ініціалізація firefox...
+2025-04-10 03:29:09,610 - INFO - Драйвер firefox закрито
+2025-04-10 03:30:35,623 - INFO - Ініціалізація chrome...
+2025-04-10 03:30:56,410 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:30:56,412 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"></script><meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><style></style>
+    <script src="/js/foundation/foundation.alerts.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div id="flash-messages" class="large-12 columns">
+      
+        
+      
+        
+      
+        
+      
+      </div>
+    </div>
+    <div class="row">
+      <a href="https://github.com/tourdedave/the-internet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+      <div id="content" class="large-12 columns">
+        <div class="example">
+  <h2>Login Page</h2>
+  <h4 class="subheader">This is where you can log into the secure area. Enter <em>tomsmith</em> for the username and <em>SuperSecretPassword!</em> for the password. If the information is wrong you should see error messages.</h4>
+  <form name="login" id="login" action="/authenticate" method="post">
+     <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+    </div>
+      <button class="radius" type="submit"><i class="fa fa-2x fa-sign-in"> Login</i></button>
+  </form>
+</div>
+
+      </div>
+    </div>
+    <div id="page-footer" class="row">
+      <div class="large-4 large-centered columns">
+        <hr>
+        <div style="text-align: center;">Powered by <a target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a></div>
+      </div>
+    </div>
+  
+
+</body></html>
+2025-04-10 03:31:13,867 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:31:13,868 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"></script><meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><style></style>
+    <script src="/js/foundation/foundation.alerts.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div id="flash-messages" class="large-12 columns">
+      
+        
+      
+        
+      
+        
+      
+      </div>
+    </div>
+    <div class="row">
+      <a href="https://github.com/tourdedave/the-internet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+      <div id="content" class="large-12 columns">
+        <div class="example">
+  <h2>Login Page</h2>
+  <h4 class="subheader">This is where you can log into the secure area. Enter <em>tomsmith</em> for the username and <em>SuperSecretPassword!</em> for the password. If the information is wrong you should see error messages.</h4>
+  <form name="login" id="login" action="/authenticate" method="post">
+     <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+    </div>
+      <button class="radius" type="submit"><i class="fa fa-2x fa-sign-in"> Login</i></button>
+  </form>
+</div>
+
+      </div>
+    </div>
+    <div id="page-footer" class="row">
+      <div class="large-4 large-centered columns">
+        <hr>
+        <div style="text-align: center;">Powered by <a target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a></div>
+      </div>
+    </div>
+  
+
+</body></html>
+2025-04-10 03:31:31,176 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:31:31,178 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"></script><meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><style></style>
+    <script src="/js/foundation/foundation.alerts.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div id="flash-messages" class="large-12 columns">
+      
+        
+      
+        
+      
+        
+      
+      </div>
+    </div>
+    <div class="row">
+      <a href="https://github.com/tourdedave/the-internet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+      <div id="content" class="large-12 columns">
+        <div class="example">
+  <h2>Login Page</h2>
+  <h4 class="subheader">This is where you can log into the secure area. Enter <em>tomsmith</em> for the username and <em>SuperSecretPassword!</em> for the password. If the information is wrong you should see error messages.</h4>
+  <form name="login" id="login" action="/authenticate" method="post">
+     <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 small-12 columns">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+    </div>
+      <button class="radius" type="submit"><i class="fa fa-2x fa-sign-in"> Login</i></button>
+  </form>
+</div>
+
+      </div>
+    </div>
+    <div id="page-footer" class="row">
+      <div class="large-4 large-centered columns">
+        <hr>
+        <div style="text-align: center;">Powered by <a target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a></div>
+      </div>
+    </div>
+  
+
+</body></html>
+2025-04-10 03:31:33,296 - INFO - Драйвер chrome закрито
+2025-04-10 03:31:33,297 - INFO - Ініціалізація firefox...
+2025-04-10 03:31:44,251 - INFO - Драйвер firefox закрито
+2025-04-10 03:31:44,260 - INFO - Ініціалізація chrome...
+2025-04-10 03:31:50,915 - INFO - Драйвер chrome закрито
+2025-04-10 03:31:50,916 - INFO - Ініціалізація firefox...
+2025-04-10 03:32:01,401 - INFO - Драйвер firefox закрито
+2025-04-10 03:39:35,599 - INFO - Ініціалізація chrome...
+2025-04-10 03:39:39,216 - INFO - Тестування логіну з користувачем: tomsmith
+2025-04-10 03:39:39,771 - INFO - Скріншот перед логіном збережено: screenshots/before_login_tomsmith.png
+2025-04-10 03:39:40,209 - INFO - Скріншот після логіну збережено: screenshots/after_login_tomsmith.png
+2025-04-10 03:39:40,220 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/secure
+2025-04-10 03:39:40,269 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:39:40,598 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:39:40,816 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:39:56,926 - ERROR - Помилка при авторизації: Message: 
+
+2025-04-10 03:39:56,930 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:39:56,933 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"...
+2025-04-10 03:39:58,110 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:39:58,404 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:39:58,784 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:39:58,793 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/login
+2025-04-10 03:39:58,826 - INFO - Тестування виходу з системи
+2025-04-10 03:40:01,759 - INFO - Драйвер chrome закрито
+2025-04-10 03:40:01,760 - INFO - Ініціалізація firefox...
+2025-04-10 03:40:09,921 - INFO - Тестування логіну з користувачем: tomsmith
+2025-04-10 03:40:10,275 - INFO - Скріншот перед логіном збережено: screenshots/before_login_tomsmith.png
+2025-04-10 03:40:10,669 - INFO - Скріншот після логіну збережено: screenshots/after_login_tomsmith.png
+2025-04-10 03:40:10,673 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/secure
+2025-04-10 03:40:10,696 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:40:10,898 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:40:11,248 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:40:11,253 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/login
+2025-04-10 03:40:11,275 - INFO - Тестування виходу з системи
+2025-04-10 03:40:15,322 - INFO - Драйвер firefox закрито
+2025-04-10 03:40:15,327 - INFO - Ініціалізація chrome...
+2025-04-10 03:40:18,848 - INFO - Тестування завантаження файлу
+2025-04-10 03:40:19,669 - INFO - Файл успішно завантажено
+2025-04-10 03:40:19,669 - INFO - Тимчасовий файл test_file.txt видалено
+2025-04-10 03:40:21,754 - INFO - Драйвер chrome закрито
+2025-04-10 03:40:21,755 - INFO - Ініціалізація firefox...
+2025-04-10 03:40:29,639 - INFO - Тестування завантаження файлу
+2025-04-10 03:40:30,245 - INFO - Файл успішно завантажено
+2025-04-10 03:40:30,246 - INFO - Тимчасовий файл test_file.txt видалено
+2025-04-10 03:40:32,895 - INFO - Драйвер firefox закрито
+2025-04-10 03:40:32,902 - INFO - Ініціалізація chrome...
+2025-04-10 03:40:36,408 - INFO - Тестування динамічного завантаження
+2025-04-10 03:40:41,807 - INFO - Динамічний елемент успішно завантажено
+2025-04-10 03:40:41,811 - INFO - Тестування динамічних елементів керування
+2025-04-10 03:40:45,178 - INFO - Чекбокс успішно видалено
+2025-04-10 03:40:48,250 - INFO - Чекбокс успішно додано назад
+2025-04-10 03:40:50,351 - INFO - Драйвер chrome закрито
+2025-04-10 03:40:50,352 - INFO - Ініціалізація firefox...
+2025-04-10 03:40:58,233 - INFO - Тестування динамічного завантаження
+2025-04-10 03:41:03,771 - INFO - Динамічний елемент успішно завантажено
+2025-04-10 03:41:03,776 - INFO - Тестування динамічних елементів керування
+2025-04-10 03:41:07,321 - INFO - Чекбокс успішно видалено
+2025-04-10 03:41:10,358 - INFO - Чекбокс успішно додано назад
+2025-04-10 03:41:13,028 - INFO - Драйвер firefox закрито
+2025-04-10 03:41:13,032 - INFO - Тестування API з мокованим запитом
+2025-04-10 03:41:13,035 - INFO - API тест успішно пройдено
+2025-04-10 03:44:31,082 - INFO - Ініціалізація chrome...
+2025-04-10 03:44:35,747 - INFO - Тестування логіну з користувачем: tomsmith
+2025-04-10 03:44:36,291 - INFO - Скріншот перед логіном збережено: screenshots/before_login_tomsmith.png
+2025-04-10 03:44:36,711 - INFO - Скріншот після логіну збережено: screenshots/after_login_tomsmith.png
+2025-04-10 03:44:36,718 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/secure
+2025-04-10 03:44:36,873 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:44:37,183 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:44:37,410 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:44:53,539 - ERROR - Помилка при авторизації: Message: 
+
+2025-04-10 03:44:53,542 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:44:53,544 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"...
+2025-04-10 03:44:54,717 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:44:55,022 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:44:55,410 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:44:55,425 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/login
+2025-04-10 03:44:55,458 - INFO - Тестування виходу з системи
+2025-04-10 03:44:56,222 - INFO - Успішний вхід у систему
+2025-04-10 03:44:57,442 - INFO - Знайдено кнопку виходу: https://the-internet.herokuapp.com/logout
+2025-04-10 03:45:09,794 - INFO - Драйвер chrome закрито
+2025-04-10 03:45:09,795 - INFO - Ініціалізація firefox...
+2025-04-10 03:45:17,758 - INFO - Тестування логіну з користувачем: tomsmith
+2025-04-10 03:45:18,111 - INFO - Скріншот перед логіном збережено: screenshots/before_login_tomsmith.png
+2025-04-10 03:45:18,513 - INFO - Скріншот після логіну збережено: screenshots/after_login_tomsmith.png
+2025-04-10 03:45:18,516 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/secure
+2025-04-10 03:45:18,540 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:45:18,739 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:45:19,082 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:45:19,087 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/login
+2025-04-10 03:45:19,108 - INFO - Тестування виходу з системи
+2025-04-10 03:45:19,612 - INFO - Успішний вхід у систему
+2025-04-10 03:45:20,645 - INFO - Знайдено кнопку виходу: https://the-internet.herokuapp.com/logout
+2025-04-10 03:45:20,992 - INFO - Успішний вихід із системи
+2025-04-10 03:45:23,672 - INFO - Драйвер firefox закрито
+2025-04-10 03:45:23,679 - INFO - Ініціалізація chrome...
+2025-04-10 03:46:36,606 - INFO - Ініціалізація chrome...
+2025-04-10 03:46:40,121 - INFO - Тестування логіну з користувачем: tomsmith
+2025-04-10 03:46:40,670 - INFO - Скріншот перед логіном збережено: screenshots/before_login_tomsmith.png
+2025-04-10 03:46:41,090 - INFO - Скріншот після логіну збережено: screenshots/after_login_tomsmith.png
+2025-04-10 03:46:41,096 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/secure
+2025-04-10 03:46:41,132 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:46:41,452 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:46:41,650 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:46:57,735 - ERROR - Помилка при авторизації: Message: 
+
+2025-04-10 03:46:57,737 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:46:57,739 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"...
+2025-04-10 03:46:58,905 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:46:59,201 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:46:59,446 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:47:17,322 - INFO - Ініціалізація chrome...
+2025-04-10 03:47:20,844 - INFO - Тестування логіну з користувачем: tomsmith
+2025-04-10 03:47:21,384 - INFO - Скріншот перед логіном збережено: screenshots/before_login_tomsmith.png
+2025-04-10 03:47:21,804 - INFO - Скріншот після логіну збережено: screenshots/after_login_tomsmith.png
+2025-04-10 03:47:21,811 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/secure
+2025-04-10 03:47:21,846 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:47:22,183 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:47:22,384 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:47:38,449 - ERROR - Помилка при авторизації: Message: 
+
+2025-04-10 03:47:38,453 - ERROR - Поточна URL: https://the-internet.herokuapp.com/login
+2025-04-10 03:47:38,454 - ERROR - HTML сторінки:
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <script src="/js/vendor/298279967.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <script src="/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="/js/foundation/foundation.js"...
+2025-04-10 03:47:39,619 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:47:39,946 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:47:40,337 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:47:40,352 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/login
+2025-04-10 03:47:40,384 - INFO - Тестування виходу з системи
+2025-04-10 03:47:41,172 - INFO - Успішний вхід у систему
+2025-04-10 03:47:42,331 - INFO - Знайдено кнопку виходу: https://the-internet.herokuapp.com/logout
+2025-04-10 03:47:42,797 - INFO - Успішний вихід із системи
+2025-04-10 03:47:44,920 - INFO - Драйвер chrome закрито
+2025-04-10 03:47:44,921 - INFO - Ініціалізація firefox...
+2025-04-10 03:47:53,082 - INFO - Тестування логіну з користувачем: tomsmith
+2025-04-10 03:47:53,425 - INFO - Скріншот перед логіном збережено: screenshots/before_login_tomsmith.png
+2025-04-10 03:47:53,815 - INFO - Скріншот після логіну збережено: screenshots/after_login_tomsmith.png
+2025-04-10 03:47:53,818 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/secure
+2025-04-10 03:47:53,841 - INFO - Тестування логіну з користувачем: invalid
+2025-04-10 03:47:54,035 - INFO - Скріншот перед логіном збережено: screenshots/before_login_invalid.png
+2025-04-10 03:47:54,378 - INFO - Скріншот після логіну збережено: screenshots/after_login_invalid.png
+2025-04-10 03:47:54,384 - INFO - Поточна URL після логіну: https://the-internet.herokuapp.com/login
+2025-04-10 03:47:54,408 - INFO - Тестування виходу з системи
+2025-04-10 03:47:54,964 - INFO - Успішний вхід у систему
+2025-04-10 03:47:55,998 - INFO - Знайдено кнопку виходу: https://the-internet.herokuapp.com/logout
+2025-04-10 03:47:56,345 - INFO - Успішний вихід із системи
+2025-04-10 03:47:59,008 - INFO - Драйвер firefox закрито
+2025-04-10 03:47:59,012 - INFO - Ініціалізація chrome...
+2025-04-10 03:48:02,866 - INFO - Тестування завантаження файлу
+2025-04-10 03:48:03,716 - INFO - Файл успішно завантажено
+2025-04-10 03:48:03,716 - INFO - Тимчасовий файл test_file.txt видалено
+2025-04-10 03:48:05,826 - INFO - Драйвер chrome закрито
+2025-04-10 03:48:05,828 - INFO - Ініціалізація firefox...
+2025-04-10 03:48:13,872 - INFO - Тестування завантаження файлу
+2025-04-10 03:48:14,408 - INFO - Файл успішно завантажено
+2025-04-10 03:48:14,408 - INFO - Тимчасовий файл test_file.txt видалено
+2025-04-10 03:48:17,053 - INFO - Драйвер firefox закрито
+2025-04-10 03:48:17,057 - INFO - Ініціалізація chrome...
+2025-04-10 03:48:20,872 - INFO - Тестування динамічного завантаження
+2025-04-10 03:48:26,246 - INFO - Динамічний елемент успішно завантажено
+2025-04-10 03:48:26,250 - INFO - Тестування динамічних елементів керування
+2025-04-10 03:48:29,634 - INFO - Чекбокс успішно видалено
+2025-04-10 03:48:32,724 - INFO - Чекбокс успішно додано назад
+2025-04-10 03:48:34,835 - INFO - Драйвер chrome закрито
+2025-04-10 03:48:34,836 - INFO - Ініціалізація firefox...
+2025-04-10 03:48:42,769 - INFO - Тестування динамічного завантаження
+2025-04-10 03:48:48,302 - INFO - Динамічний елемент успішно завантажено
+2025-04-10 03:48:48,307 - INFO - Тестування динамічних елементів керування
+2025-04-10 03:48:51,718 - INFO - Чекбокс успішно видалено
+2025-04-10 03:48:54,751 - INFO - Чекбокс успішно додано назад
+2025-04-10 03:48:57,399 - INFO - Драйвер firefox закрито
+2025-04-10 03:48:57,403 - INFO - Тестування API з мокованим запитом
+2025-04-10 03:48:57,405 - INFO - API тест успішно пройдено
